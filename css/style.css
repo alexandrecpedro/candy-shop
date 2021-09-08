@@ -9,10 +9,9 @@
 body {
     margin-top: 50px;
     font-family: 'Poppins', sans-serif;
-    color: white;
-    background-color: #ee0e29;
     background-image: url('../img/Lojas-de-doces.jpeg');
     background-size: cover;
+    background-color: rgba(255, 255, 255, 0.363);
 }
 
 main {
@@ -25,6 +24,10 @@ main {
 
 main img {
     width: 100px;
+}
+
+.foto {
+    background-color: rgba(255, 255, 255, 0.39);
 }
 
 label,

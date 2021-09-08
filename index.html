@@ -13,93 +13,95 @@
 </head>
 <body>
     <main class="container">
-        <section>
-            <img src="https://www.logolynx.com/images/logolynx/68/683b26dc8b9cfbda27db4743c9f4c211.jpeg"
-                alt="Logo de loja de Doces">
-            <h2>Eu como tudo isso!</h2>
-        </section>
-        <form action="#" method="POST">
-            <fieldset>
-                <legend>Dados Pessoais:</legend>
-                <label for="email">Email: </label>
-                <input type="email" name="email" id="email" placeholder="Insira seu email" required>
-
-                <label for="nome">Nome: </label>
-                <input type="text" name="nome" id="nome">
-
-                <label for="endereco">Endereco: </label>
-                <textarea name="endereco" id="endereco" cols="22" rows="5" placeholder="Digite seu endereço"></textarea>
-            </fieldset>
-            <fieldset>
-                <legend>Escolha seu doce</legend>
-                <select name="doces" id="doces">
-                    <option value="" disabled>Escolha uma opção</option>
-                    <optgroup label="Tortas">
-                        <option value="maca">Maçã</option>
-                        <option value="morango">Morango</option>
-                        <option value="limao">Limão</option>
-                    </optgroup>
-                    <optgroup label="Bolos">
-                        <option value="chocolate">Chocolate</option>
-                        <option value="cenoura">Cenoura</option>
-                        <option value="trufado">Trufado</option>
-                    </optgroup>
-                    <optgroup label="Padaria">
-                        <option value="sonho">Sonho</option>
-                        <option value="pudim">Pudim</option>
-                        <option value="carolina">Carolina</option>
-                        <option value="carolina">Carolina</option>
-                    </optgroup>
-                    <optgroup label="Chocolate">
-                        <option value="barra">Em barra</option>
-                        <option value="leite">Ao leite</option>
-                        <option value="amargo">Amargo</option>
-                        <option value="meio-amargo">Meio amargo</option>
-                        <option value="branco">Branco</option>
-                        <option value="bombom">Bombom</option>
-                    </optgroup>
-                    <optgroup label="Biscoitos">
-                        <option value="polvilho">Polvilho</option>
-                        <option value="amanteigado">Amanteigado</option>
-                        <option value="recheado">Recheado</option>
-                    </optgroup>
-                    <optgroup label="Candies">
-                        <option value="balas">Balas</option>
-                        <option value="pirulitos">Pirulitos</option>
-                        <option value="goma">Goma de Mascar</option>
-                        <option value="algodao">Algodão Doce</option>
-                    </optgroup>
-                </select>
-            </fieldset>
-            <fieldset>
-                <legend>Método de Pagamento</legend>
-                <div class="metodoPagamento">
-                    <input type="radio" name="pagamento" id="dinheiro" checked> 
-                    <label for="dinheiro">Dinheiro</label>
-                    <input type="radio" name="pagamento" id="credito"> 
-                    <label for="credito">Crédito</label>
-                    <input type="radio" name="pagamento" id="debito"> 
-                    <label for="debito">Débito</label>
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Opcionais:</legend>
-                <div class="opcionais">
-                    <input type="checkbox" name="colher" id="colher"> 
-                    <label for="colher">Colher</label>
-                    <input type="checkbox" name="garfo" id="garfo"> 
-                    <label for="garfo">Garfo</label>
-                    <input type="checkbox" name="embalagens" id="embalagens"> 
-                    <label for="embalagens">Para presente</label>
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Agendar para quando?</legend>
-                <input type="datetime-local" name="data" id="data">
-            </fieldset>
-            <button type="submit">Pedir</button>
-            <button type="reset">Cancelar</button>
-        </form>
+        <div class="foto">
+            <section>
+                <img src="https://www.logolynx.com/images/logolynx/68/683b26dc8b9cfbda27db4743c9f4c211.jpeg"
+                    alt="Logo de loja de Doces">
+                <h2>Eu como tudo isso!</h2>
+            </section>
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Dados Pessoais:</legend>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Insira seu email" required>
+    
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" id="nome">
+    
+                    <label for="endereco">Endereco: </label>
+                    <textarea name="endereco" id="endereco" cols="22" rows="5" placeholder="Digite seu endereço"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Escolha seu doce</legend>
+                    <select name="doces" id="doces">
+                        <option value="">Escolha uma opção</option>
+                        <optgroup label="Tortas">
+                            <option value="maca">Maçã</option>
+                            <option value="morango">Morango</option>
+                            <option value="limao">Limão</option>
+                        </optgroup>
+                        <optgroup label="Bolos">
+                            <option value="chocolate">Chocolate</option>
+                            <option value="cenoura">Cenoura</option>
+                            <option value="trufado">Trufado</option>
+                        </optgroup>
+                        <optgroup label="Padaria">
+                            <option value="sonho">Sonho</option>
+                            <option value="pudim">Pudim</option>
+                            <option value="carolina">Carolina</option>
+                            <option value="carolina">Carolina</option>
+                        </optgroup>
+                        <optgroup label="Chocolate">
+                            <option value="barra">Em barra</option>
+                            <option value="leite">Ao leite</option>
+                            <option value="amargo">Amargo</option>
+                            <option value="meio-amargo">Meio amargo</option>
+                            <option value="branco">Branco</option>
+                            <option value="bombom">Bombom</option>
+                        </optgroup>
+                        <optgroup label="Biscoitos">
+                            <option value="polvilho">Polvilho</option>
+                            <option value="amanteigado">Amanteigado</option>
+                            <option value="recheado">Recheado</option>
+                        </optgroup>
+                        <optgroup label="Candies">
+                            <option value="balas">Balas</option>
+                            <option value="pirulitos">Pirulitos</option>
+                            <option value="goma">Goma de Mascar</option>
+                            <option value="algodao">Algodão Doce</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Método de Pagamento</legend>
+                    <div class="metodoPagamento">
+                        <input type="radio" name="pagamento" id="dinheiro" checked> 
+                        <label for="dinheiro">Dinheiro</label>
+                        <input type="radio" name="pagamento" id="credito"> 
+                        <label for="credito">Crédito</label>
+                        <input type="radio" name="pagamento" id="debito"> 
+                        <label for="debito">Débito</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Opcionais:</legend>
+                    <div class="opcionais">
+                        <input type="checkbox" name="colher" id="colher"> 
+                        <label for="colher">Colher</label>
+                        <input type="checkbox" name="garfo" id="garfo"> 
+                        <label for="garfo">Garfo</label>
+                        <input type="checkbox" name="embalagens" id="embalagens"> 
+                        <label for="embalagens">Para presente</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Agendar para quando?</legend>
+                    <input type="datetime-local" name="data" id="data">
+                </fieldset>
+                <button type="submit">Pedir</button>
+                <button type="reset">Cancelar</button>
+            </form>
+        </div>
     </main>
 </body>
 </html>
